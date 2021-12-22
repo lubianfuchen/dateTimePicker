@@ -44,10 +44,14 @@ Page({
 
     arr[e.detail.column] = e.detail.value;
     dateArr[2] = dateTimePicker.getMonthDay(dateArr[0][arr[0]], dateArr[1][arr[1]]);
-    //console.log(arr);
+    console.log(arr);
+    while(!dateArr[2][arr[2]]){
+      arr[2]--
+    }
     this.setData({
       dateTimeArray: dateArr,
       dateTime: arr,
+      date:dateArr[0][arr[0]].substring(0,4)+"-"+dateArr[1][arr[1]].substring(0,2)+"-"+dateArr[2][arr[2]].substring(0, 2),
       day: dateArr[2][arr[2]].substring(0, 3),
     });
   }

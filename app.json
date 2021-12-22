@@ -7,5 +7,6 @@
     "navigationBarBackgroundColor": "#505460",
     "navigationBarTitleText": "dateTimePicker",
     "navigationBarTextStyle": "white"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

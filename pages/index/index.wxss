@@ -26,8 +26,8 @@
 
 .hd {
   text-align: center;
-  width: 120rpx;
-  margin-left: -20rpx;
+  width: 140rpx;
+  margin-left: 10rpx;
 }
 
 .date {
